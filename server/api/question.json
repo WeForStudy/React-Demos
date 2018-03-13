@@ -1,0 +1,86 @@
+{
+  "path": "",
+  "delay": 500,
+  "name": "",
+  "description": "",
+  "isPaging": false,
+  "datasource": "success.data",
+  "responseName": "success",
+  "response": {
+    "success": {
+      "retcode": "2000000",
+      "msg": "成功",
+      "data":{
+        "_id":"5a66eefb1e2e40e7ccaddb67",
+        "projectName":"职位招聘",
+        "projectItems":{
+          "name":"职位名称",
+          "description":"职位描述",
+          "questions":"数码面试问题",
+          "members":"面试官成员",
+          "effectiveTime":"邀请有效时间",
+          "costCenter":"部门/成本中心",
+          "count":"预计招聘人数",
+          "rate":"评分项",
+          "url":"申请链接",
+          "QRCode":"申请二维码",
+          "descriptionTip":"任职要求及岗位职责",
+          "questionsTip":"你最多提出10个你想了解候选人情况的问题，候选人将通过数码面试回答你的提问。",
+          "effectiveTimeTip":"被邀请者必须要在有效时间之内完成数码面试，该时间是从邀请发送一刻开始计算，默认为7天。",
+          "costCenterTip":"发布此项目的部门，用于公司各个部门的成本合算。",
+          "rateTip":"确定评分类别，根据评分类别对被评价对象进行评分。"
+        },
+        "all":"申请",
+        "firstRoundCount":"第一轮面试",
+        "multipleRoundsCount":"后续面试",
+        "UnreadCount":"未读申请",
+        "rateItems":[
+          "表达能力",
+          "语言",
+          "知识",
+          "外形",
+          "领导力",
+          "经验"
+        ],
+        "questions":[
+          "请介绍一下您自己",
+          "请评价一下您前一任上级",
+          "您觉得您有哪些优点和缺点",
+          "在工作中遇到过的最大困难是什么，又是如何克服的？",
+          "您选择从上一家公司离职的原因是什么？",
+          "您希望与什么样的上级共事",
+          "当与上级意见不统一时，您会如何去做？",
+          "您最崇拜的人是谁？为什么？",
+          "对于申请的岗位，您认为您的优势和不足分别是什么？",
+          "请问如何看待加班问题",
+          "在未来五年内，您的个人目标和职业目标分别是什么？",
+          "请说明在人生中最失败的经历",
+          "您的朋友是如何评价您的？",
+          "请介绍一下您在工作中最大的成就",
+          "请谈谈您对行业未来发展的看法"
+        ],
+        "positionReport":{
+          "days":"招标评审时长",
+          "daysTip":"招标评审时长是指招标项目发布从开始到关闭的时长",
+          "money":"花费",
+          "offerRate":"中标率",
+          "offerRateTip":"中标率 = 通知中标数量（molecular） / 投标数量（denominator）",
+          "interviewPassRate":"面试通过率",
+          "interviewPassRateTip":"面试通过率 = 面试后中标数量（molecular） / 面试数量（denominator）",
+          "interviewRate":"面试率",
+          "interviewRateTip":"面试率 = 面试数量（molecular） / 候选数量（denominator）",
+          "initialScreeningRate":"初筛通过率",
+          "initialScreeningRateTip":"初筛通过率 = 候选数量（molecular） / 投标数量（denominator）",
+          "completionRate":"中标完成率",
+          "completionRateTip":"中标完成率 = 通知中标数量（molecular） / 预计中标数量（denominator）",
+          "completionRateTip1":"中标完成率 = 通知中标数量 / 预计中标数量未设置预计中标数量"
+        }
+      }
+    },
+    "failure": {
+      "code": "201",
+      "status": "FAILURE",
+      "message": "服务异常"
+    }
+  }
+}

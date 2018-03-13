@@ -1357,7 +1357,7 @@ chalk@1.1.3, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.1:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.1, chalk@^2.3.2:
   version "2.3.2"
   resolved "http://registry.npm.taobao.org/chalk/download/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
   dependencies:
@@ -2237,7 +2237,7 @@ es6-map@^0.1.3:
     es6-symbol "~3.1.1"
     event-emitter "~0.3.5"
 
-es6-promise@^4.0.5:
+es6-promise@^4.0.5, es6-promise@^4.2.4:
   version "4.2.4"
   resolved "http://registry.npm.taobao.org/es6-promise/download/es6-promise-4.2.4.tgz#dc4221c2b16518760bd8c39a52d8f356fc00ed29"
 
@@ -3732,7 +3732,7 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
-isomorphic-fetch@^2.1.1:
+isomorphic-fetch@^2.1.1, isomorphic-fetch@^2.2.1:
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
   dependencies:

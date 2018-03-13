@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './index.styl';
-
+import { getQuestion } from '../../services'
 class App extends Component {
+  componentDidMount() {
+    getQuestion().then(res => {
+      console.log(res)
+    })
+  }
   render() {
     return (
       <div className="App">
